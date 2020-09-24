@@ -94,3 +94,7 @@ body {
   width: 5rem;
 
 }
+
+.current-menu-item a{
+  color: #fff !important;
+}
