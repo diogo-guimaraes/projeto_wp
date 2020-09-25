@@ -102,7 +102,7 @@
         <p class="lead"><?php the_excerpt(); ?></p>
       </div>
       <div class="col-md-5">
-          <?php the_post_thumbnail('medium'); ?>
+         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a> 
       </div>
     </div>
           <?php else: ?>
@@ -114,7 +114,7 @@
         <p class="lead"><?php the_excerpt(); ?></p>
       </div>
       <div class="col-md-5 order-md-1">
-      <?php the_post_thumbnail('thumbnail'); ?>
+      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a> 
       </div>
     </div>
     <?php endif;
