@@ -28,7 +28,7 @@ function criar_post_postagens(){
         'has_archive' => true,
         'hierarchical' => false,
         'menu_position' => 'top',
-        'register_meta_box_cb' => 'postagens_meta_box',
+        // 'register_meta_box_cb' => 'postagens_meta_box',
         'supports' => array('title', 'editor', 'thumbnail'),
         'show_in_rest' => true
     );

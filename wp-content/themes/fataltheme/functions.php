@@ -20,7 +20,9 @@ function trocar_url(){
   return 'google.com';
 }
 
+add_theme_support('post-thumbnails');
 
 require __DIR__ . '/inc/assets.php';
 require __DIR__ . '/inc/gestao.php';
 require __DIR__ . '/inc/menu.php';
+require __DIR__ . '/inc/custom_posts.php';
